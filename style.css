@@ -513,7 +513,7 @@ body {
 	}
 	#content .coverage {
 		font-size:16px;
-		padding:20px 145px 20px 20px;
+		padding:20px 50px 20px 20px;
 		margin:0 0 30px;
 	}
 	#content .coverage .map {
@@ -540,21 +540,6 @@ body {
 	#footer .cta-bottom {
 		font-size:20px;
 		padding:0;
-	}
-  /*==[ Images for 2x Retina ]==*/
-	@media
-	only screen and (-webkit-min-device-pixel-ratio: 2),
-	only screen and (   min--moz-device-pixel-ratio: 2),
-	only screen and (     -o-min-device-pixel-ratio: 2/1),
-	only screen and (        min-device-pixel-ratio: 2),
-	only screen and (                min-resolution: 192dpi),
-	only screen and (                min-resolution: 2dppx) {
-		#logo {
-			background:url(images/logo.png) no-repeat;
-		}
-		#content .coverage .map {
-			background:url(images/map_sm.png) no-repeat;
-		}
 	}
 }
 @media all and (max-width: 330px) {
@@ -609,27 +594,6 @@ body {
 	}
 	#footer .cta-bottom {
 		font-size:18px;
-	}
-  /*==[ Images for 2x Retina ]==*/
-	@media
-	only screen and (-webkit-min-device-pixel-ratio: 2),
-	only screen and (   min--moz-device-pixel-ratio: 2),
-	only screen and (     -o-min-device-pixel-ratio: 2/1),
-	only screen and (        min-device-pixel-ratio: 2),
-	only screen and (                min-resolution: 192dpi),
-	only screen and (                min-resolution: 2dppx) {
-		#logo {
-			background:url(images/logo.png) no-repeat;
-		}
-		#content .coverage .map {
-			background:url(images/map_sm.png) no-repeat;
-		}
-		#header .contact .phone {
-			background:url(images/ico_phone.png) no-repeat;
-		}
-		#header .contact .email {
-			background:url(images/ico_email.png) no-repeat;
-		}
 	}
 }
 /*=[}}}]=*/
